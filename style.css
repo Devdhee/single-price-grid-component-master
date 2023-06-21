@@ -21,7 +21,7 @@ section {
   justify-content: center;
   /* height: 100vh; */
   background-color: var(--Light_Gray);
-  padding: 80px 0;
+  padding: 40px 0;
 }
 .container {
   /* height: 80vh; */
@@ -152,6 +152,9 @@ footer {
 }
 
 @media screen and (min-width: 1440px) {
+  section {
+    padding: 150px 0;
+  }
   .container {
     display: flex;
     flex-direction: column;
